@@ -48,3 +48,39 @@
     }
 }
 
+/*section-2*/
+.due {
+    width: 60%;
+    margin: auto;
+}
+
+.deploy_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.deploy_menu {
+    flex-basis: 15%;
+}
+
+.deploy_info {
+    flex-basis: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.deploy_features {
+    width: 50%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 425px) {
+    .deploy_container, .deploy_info {
+        display: block;
+    }
+
+
+}
