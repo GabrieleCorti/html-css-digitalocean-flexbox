@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*section1*/
+#section-1 {
+    background-color: #F3F5F9;
+}
+
+.title {
+    padding: 35px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_img {
+    margin: 0 35px;
+}
+
+.link_section-1 {
+    text-align: center;
+    padding: 25px 0 35px 0;
+}
+
+@media screen and (max-width: 1024px){
+    
+}
