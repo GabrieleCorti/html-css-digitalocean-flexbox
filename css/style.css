@@ -80,7 +80,7 @@
 
 .deploy_features {
     width: 50%;
-    padding: 15px;
+    padding: 15px 15px 0 0;
 }
 
 @media screen and (max-width: 425px) {
