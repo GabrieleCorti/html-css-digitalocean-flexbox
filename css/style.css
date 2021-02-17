@@ -42,6 +42,12 @@
     }
 }
 
+@media screen and (max-width: 500px){
+    .logo_wrap {
+        flex-basis: calc((100% / 2) - 20px);
+    }
+}
+
 @media screen and (max-width: 425px) {
     .logo_wrap {
         flex-basis: 100%;
